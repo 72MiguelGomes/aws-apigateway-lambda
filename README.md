@@ -1,4 +1,4 @@
-aws-lambda
+aws-apigateway-lambda
 ===========
 
 This project is an example how to use API Gateway with AWS Lambda. 

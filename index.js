@@ -9,6 +9,9 @@ exports.handler = (event, context, callback) => {
     case "/person/{id}":
       requestDispatcher.getPerson(event, callback);
       break;
+    case "/persons":
+      requestDispatcher.getPersons(event, callback);
+      break;
 
     default:
       // Send HTTP 501: Not Implemented

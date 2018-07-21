@@ -15,3 +15,9 @@ Resources:
           Properties:
             Path: /person/{id}
             Method: get
+        Persons:
+          Type: Api
+          Properties:
+            # Query parameters don't to be defined
+            Path: /persons
+            Method: get
